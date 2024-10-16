@@ -21,6 +21,10 @@
     top: 248px !important;
     width: 295px !important;
   }
+
+  h2.main{
+    margin-top: 26px !important;
+  }
 }
 
 @media screen and (max-width: 1159px) {
@@ -92,6 +96,10 @@
 
   h1{
     padding-top: 55px !important;
+  }
+
+  h2.main{
+    margin-top: 70px !important;
   }
 
   footer{
@@ -166,6 +174,11 @@
   }
 }
 
+@media screen and (orientation: landscape) {
+  body{
+    font-size: 117% !important;
+  }
+}
 
 
 .title_bar{
