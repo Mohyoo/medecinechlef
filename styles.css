@@ -1,6 +1,19 @@
-*{
-  max-width: 100%;
-}
+/* begin home page image block full bleed */
+  html:not( .squarespace-damask ) .homepage #page .page-section:first-child .content-wrapper {
+    padding : 0;
+    /* padding-bottom : 0; */
+  }
+    
+  html:not( .squarespace-damask ) .homepage #page .page-section:first-child .sqs-layout > .sqs-row {
+    margin-left : 0;
+    margin-right : 0;
+  }
+    
+  html:not( .squarespace-damask ) #block-yui_3_17_2_1_1650565459874_2456 {
+    padding-left : 0;
+    padding-right : 0;  
+  }  
+  /* end home page image block full bleed */
 
 .title_bar{
   background: #2049ff;
