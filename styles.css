@@ -193,7 +193,6 @@ footer.long_page{
 
 @media screen and (max-width: 1159px) {
   .title_bar{
-    width: 99%;
     padding-bottom: 0px;
     font-size: 15px;
     margin: -37px;
