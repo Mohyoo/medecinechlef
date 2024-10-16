@@ -107,7 +107,7 @@ body{
 
 h2{
   margin-top: 50px;
-  max-width: 750px;
+  max-width: 60%;
 }
 
 h4{
@@ -258,8 +258,16 @@ footer.long_page{
     padding-top: 55px;
   }
 
+  h2{
+    max-width: 100%
+  }
+
   h2.main{
     margin-top: 70px !important;
+  }
+
+  ul{
+    max-width: 85%;
   }
 
   footer{
