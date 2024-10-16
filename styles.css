@@ -155,7 +155,6 @@ footer.long_page{
   position: relative;
   bottom: -130px;
   margin-top: -30px;
-  overflow-x: hidden;
 }
 
 
@@ -270,8 +269,12 @@ footer.long_page{
     max-width: 85%;
   }
 
+  a{
+    font-size: 16px;
+  }
+
   footer{
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
     left: -11px;
     width: 99%;
@@ -279,8 +282,12 @@ footer.long_page{
     padding-left: 19px;
   }
 
+  footer.long_page{
+    padding-right: 25px;
+  }
+
   footer a{
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 
