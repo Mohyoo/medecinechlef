@@ -72,7 +72,7 @@ function catchSearchValue() {
     label.style.padding = '0';
   }
   else {
-    label.style.boxShadow = '0 0 0 2px rgba(255, 255, 255, 0.4)';
+    label.style.boxShadow = '0 0 0 2px rgba(135, 135, 135, 1)';
     label.style.paddingLeft = '60px';
     label.style.paddingTop = '5px';
     label.style.paddingBottom = '5px';
