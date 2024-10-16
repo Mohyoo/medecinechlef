@@ -147,6 +147,7 @@ footer{
   margin-bottom: -5px;
   margin-top: 75px;
   border-top: 2px solid gray;
+  overflow-x: hidden;
 }
 
 footer.long_page{
