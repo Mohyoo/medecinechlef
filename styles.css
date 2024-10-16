@@ -166,11 +166,6 @@
   }
 }
 
-@media screen and (orientation: landscape) {
-  body{
-    font-size: 117% !important;
-  }
-}
 
 
 .title_bar{
