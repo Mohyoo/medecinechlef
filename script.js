@@ -81,7 +81,8 @@ function catchSearchValue() {
     var results = search(value);
     for (var result in results) {
       result = results[result];
-      var anchor_tag = '<a href="https://mohyoo.github.io/medecinechlef/articles/' + result + '.html' + '">' + result + '</a><br>'
+      var anchor_tag = '<a href="file:///home/mohyeddine/Documents/Web/Projects/Medicine/articles/' + result + '.html' + '">' + result + '</a><br>'
+      // var anchor_tag = '<a href="https://mohyoo.github.io/medecinechlef/articles/' + result + '.html' + '">' + result + '</a><br>'
       label.innerHTML += anchor_tag;
     }
   }
