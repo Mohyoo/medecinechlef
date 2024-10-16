@@ -1,3 +1,7 @@
+*{
+  max-width: 100%;
+}
+
 .title_bar{
   background: #2049ff;
   color: white;
@@ -280,10 +284,6 @@ footer.long_page{
     width: 99%;
     padding: 15px 33px;
     padding-left: 19px;
-  }
-
-  footer.long_page{
-    padding-right: -25px;
   }
 
   footer a{
