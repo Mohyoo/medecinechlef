@@ -40,11 +40,10 @@ function editDistance(s1, s2) {
 }
 
 function search(value) {
-  var links = ['Introduction.html', 'Cœur.html']
-  var names = ['Introduction', 'Cœur']
+  var links = ['Introduction', 'Applications']
   var ratios = []
-  for (var name in names) {
-    var ratio = similarity(value, names[name]);
+  for (var link in links) {
+    var ratio = similarity(value, links[link]);
     ratios.push(ratio);
   }
 
@@ -53,10 +52,10 @@ function search(value) {
     if (ratios[0] == undefined) break;
     var max = Math.max.apply(Math, ratios);
     var index = ratios.indexOf(max);
-    var result = names[index];
+    var result = links[index];
     results.push(result);
     ratios.splice(index, 1);
-    names.splice(index, 1)
+    links.splice(index, 1)
   }
 
   return results;
