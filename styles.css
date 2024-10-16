@@ -189,7 +189,7 @@ footer.long_page{
 
 @media screen and (max-width: 1159px) {
   *{
-    margin-right: 0;
+    margin-right: auto;
   }
 
   .title_bar{
