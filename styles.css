@@ -168,7 +168,7 @@
 
 @media screen and (orientation: landscape) {
   body{
-    font-size: 25px !important;
+    font-size: 125% !important;
   }
 }
 
