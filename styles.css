@@ -283,7 +283,7 @@ footer.long_page{
   }
 
   footer.long_page{
-    padding-right: 25px;
+    padding-right: -25px;
   }
 
   footer a{
