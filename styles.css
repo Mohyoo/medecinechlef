@@ -168,7 +168,7 @@
 
 @media screen and (orientation: portrait) {
   body{
-    font-size: 25px !important;
+    font-size: 110% !important;
   }
 }
 
