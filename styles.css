@@ -146,7 +146,7 @@ a{
 }
 
 footer{
-  position: fixed;
+  /* position: fixed; */
   background: #2049ff;
   color: white;
   text-align: center;
@@ -154,17 +154,32 @@ footer{
   bottom: 0;
   width: 100%;
   padding: 25px 25px;
-  margin-left: -6px;
-  margin-bottom: -5px;
-  margin-top: 75px;
+  margin-left: -20px;
+  /* margin-bottom: -5px; */
+  /* margin-top: 75px; */
   border-top: 2px solid gray;
 }
 
-footer.long_page{
+html{
+  height: 100%;
+}
+
+body{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  margin-top: auto;
+  margin-bottom: -153px;
+}
+
+/* footer.long_page{
   position: relative;
   bottom: -130px;
   margin-top: -30px;
-}
+} */
 
 
 @media screen and (max-width: 1450px) {

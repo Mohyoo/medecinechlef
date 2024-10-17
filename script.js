@@ -81,15 +81,20 @@ function catchSearchValue() {
     for (var result in results) {
       result = results[result];
       var mainPages = ['contact', 'about'];
+      var mainPagesFr = ['Contactez-moi', 'À propos']
       for (var page in mainPages){
         if (result == mainPages[page]){
+          name = mainPagesFr[page];
           i = '';
           break;
         }
-        else i = 'articles/';
+        else{
+          name = result;
+          i = 'articles/'
+        };
       }
       // var anchor_tag = '<a href="file:///home/mohyeddine/Documents/Web/Projects/Medicine/articles/' + result + '.html' + '">' + result + '</a><br>'
-      var anchor_tag = '<a style="text-transform: capitalize" href="https://mohyoo.github.io/medecinechlef/' + i + result + '.html' + '">' + result + '</a><br>'
+      var anchor_tag = '<a style="text-transform: capitalize" href="https://mohyoo.github.io/medecinechlef/' + i + result + '.html' + '">' + name + '</a><br>'
       label.innerHTML += anchor_tag;
     }
   }
