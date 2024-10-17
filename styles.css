@@ -125,7 +125,7 @@ ul.content{
   max-width: 800px;
 }
 
-p{
+.content{
   max-width: 800px;
 }
 
@@ -173,6 +173,7 @@ footer.long_page{
     background: #5b7f93;
     border-radius: 18px;
   }
+
   .search_icon{
     opacity: 1;
   }
