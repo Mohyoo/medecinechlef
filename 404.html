@@ -4,28 +4,31 @@
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Erreur 404</title>
   <link rel="icon" type="image/x-icon" href="assets/icon.svg">
-  <link rel="stylesheet" href="styles.css">
-  <script type="text/javascript" src='script.js'></script>
+  <style media="screen">
+    body{
+      background: #141d36;
+      color: white;
+      text-align: left;
+    }
+
+    h1{
+      margin-bottom: 40px;
+    }
+
+    p{
+      font-size: 18px;
+    }
+
+    a{
+      color: cyan;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-  <div class="title_bar">
-    <a href="index.html"><img class="logo" src="assets/logo.avif" alt="logo"></a>
-    <p><img class="in_the_name_of_Allah" src="assets/In the name of Allah.png" alt="In the name of Allah"> </p>
-    <p class="welcome">Bienvenue dans notre site web de la médecine!</p>
-    <p class="warning">(Ce n'est pas l'official site de la faculté de Chlef)</p>
-  </div>
-  <div id='search_div_id' class='search'>
-    <img class="search_icon" src='assets/search.png' alt='Search Bar'>
-    <input id='search_input_id' class="search_input" onkeyup="catchSearchValue();" placeholder="Rechercher">
-    <div id="search_labels_id" class="search_labels"></div>
-  </div>
-  <h1 style="margin-top: 27px;">Page Non Trouvée</h1>
-  <p style="font-size: 20px; line-height: 30px;">
-    Désolé, mais cette page n'existe pas, ou elle est peut-être supprimée. <br>
-    Vous pouvez aller à la <a href="index.html">Page d'Accueil</a>.
+  <h1>Page Non Trouvée</h1>
+  <p>Désolé, mais cette page n'existe pas, ou elle est peut-être supprimée.</p>
+  <p>Vous pouvez aller à la <a href="index.html">Page d'Accueil</a>.</p>
   </p>
 </body>
-<footer>
-  2024 © Didouna Mohyeddine, Publié Dans <a href="https://github.com/" target='_blank'>Github</a>
-</footer>
 </html>
