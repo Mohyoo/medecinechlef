@@ -132,6 +132,7 @@ h4{
 .content{
   font-size: 16px;
   max-width: 800px;
+  line-height: 26px;
 }
 
 a{
@@ -350,7 +351,7 @@ footer{
     width: 95%;
   }
   .logo{
-    display: none;
+    display: none !important;
   }
 
   .welcome{
