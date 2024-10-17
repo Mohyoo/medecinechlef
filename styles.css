@@ -125,6 +125,10 @@ ul.content{
   max-width: 800px;
 }
 
+p{
+  max-width: 800px;
+}
+
 a{
   text-decoration: none;
   color: cyan;
@@ -271,6 +275,10 @@ footer.long_page{
 
   ul{
     max-width: 85%;
+  }
+
+  p{
+    max-width: 90%;
   }
 
   a{
