@@ -104,8 +104,10 @@ body{
   background: #141d36;
   color: white;
   font-family: sans-serif, Helvetica, Arial;
-  width: 99%;
   padding-bottom: 125px;
+}
+
+.title_bar, body, footer{
   overflow-x: hidden;
 }
 
