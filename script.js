@@ -40,7 +40,7 @@ function editDistance(s1, s2) {
 }
 
 function search(value) {
-  var links = ['Introduction', 'Applications']
+  var links = ['Introduction', 'Applications', 'contact', 'about']
   var ratios = []
   for (var link in links) {
     var ratio = similarity(value, links[link]);
@@ -80,8 +80,16 @@ function catchSearchValue() {
     var results = search(value);
     for (var result in results) {
       result = results[result];
+      var mainPages = ['contact', 'about'];
+      for (var page in mainPages){
+        if (result == mainPages[page]){
+          i = '';
+          break;
+        }
+        else i = 'articles/';
+      }
       // var anchor_tag = '<a href="file:///home/mohyeddine/Documents/Web/Projects/Medicine/articles/' + result + '.html' + '">' + result + '</a><br>'
-      var anchor_tag = '<a href="https://mohyoo.github.io/medecinechlef/articles/' + result + '.html' + '">' + result + '</a><br>'
+      var anchor_tag = '<a style="text-transform: capitalize" href="https://mohyoo.github.io/medecinechlef/' + i + result + '.html' + '">' + result + '</a><br>'
       label.innerHTML += anchor_tag;
     }
   }

@@ -74,10 +74,10 @@ img.in_the_name_of_Allah{
 }
 
 div.search_labels{
-  position: fixed;
+  position: absolute;
   display: block;
-  top: 174px;
-  right: 10px;
+  top: 62px;
+  right: 0;
   width: 310px;
   background: black;
   line-height: 30px;
@@ -114,9 +114,13 @@ h2{
   max-width: 60%;
 }
 
+h2.main{
+  margin-top: 26px;
+}
+
 h4{
   margin-top: -13px;
-  opacity: 0.8;
+  color: gray;
   font-weight: 425;
 }
 
@@ -188,12 +192,8 @@ footer.long_page{
   }
 
   div.search_labels{
-    top: 248px;
+    top: 47px;
     width: 295px;
-  }
-
-  h2.main{
-    margin-top: 26px;
   }
 }
 
@@ -206,17 +206,22 @@ footer.long_page{
   }
 
   img.in_the_name_of_Allah{
+    margin-left: auto;
+    margin-left: 10%;
+    margin-right: auto;
     width: 200px;
     margin-top: -200px;
   }
 
   p.welcome{
-    margin: auto;
+    margin: 0 auto;
     line-height: 25px;
     margin-bottom: 10px;
   }
 
   p.warning{
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -17px;
     font-size: 13px;
   }
@@ -244,9 +249,9 @@ footer.long_page{
   }
 
   div.search_labels{
-    top: 161px;
-    left: 5%;
-    width: 75%;
+    top: 52px;
+    left: 0%;
+    width: 80%;
     padding-right: 5px;
     padding-left: 40px;
   }
@@ -331,8 +336,8 @@ footer.long_page{
   }
 
   .search_labels{
-    top: 155px;
-    max-width: 80%;
+    top: 75px !important;
+    max-width: 75%;
     margin-top: -32px;
     padding-left: 20px;
   }
