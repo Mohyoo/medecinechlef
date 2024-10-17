@@ -2,6 +2,10 @@
 extra white space, search & label position.
  */
 
+.title_bar, body, footer{
+  overflow-x: hidden;
+}
+
 .title_bar{
   background: #2049ff;
   color: white;
@@ -107,10 +111,6 @@ body{
   padding-bottom: 125px;
 }
 
-.title_bar, body, footer{
-  overflow-x: hidden;
-}
-
 h2{
   margin-top: 50px;
   max-width: 60%;
@@ -154,7 +154,7 @@ footer{
   bottom: 0;
   width: 100%;
   padding: 25px 25px;
-  margin-left: -15px;
+  margin-left: -6px;
   margin-bottom: -5px;
   margin-top: 75px;
   border-top: 2px solid gray;
