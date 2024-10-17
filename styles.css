@@ -15,7 +15,6 @@ extra white space, search & label position.
   margin: -10px;
   line-height: 40px;
   border-bottom: solid 2px gray;
-  width: 100% !important;
 }
 
 img.in_the_name_of_Allah{
@@ -105,10 +104,8 @@ body{
   background: #141d36;
   color: white;
   font-family: sans-serif, Helvetica, Arial;
-  width: 99%;
   padding-bottom: 125px;
   overflow-x: hidden;
-  width: 100% !important;
 }
 
 h2{
@@ -159,7 +156,6 @@ footer{
   margin-top: 75px;
   border-top: 2px solid gray;
   overflow-x: hidden;
-  width: 100% !important;
 }
 
 footer.long_page{
