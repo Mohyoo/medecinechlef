@@ -40,8 +40,8 @@ function editDistance(s1, s2) {
 }
 
 function search(value) {
-  var links = ['introduction', 'contact', 'help', 'about', 'Applications', 'Autres_Resources']
-  var ratios = []
+  var links = ['introduction', 'contact', 'help', 'about', 'Applications', 'Autres_Resources'];
+  var ratios = [];
   for (var link in links) {
     var ratio = similarity(value, links[link]);
     ratios.push(ratio);
@@ -80,8 +80,8 @@ function catchSearchValue() {
     var results = search(value);
     for (var result in results) {
       result = results[result];
-      var mainPages = ['introduction', 'contact', 'help' 'about'];
-      var mainPagesFr = ['Introduction', 'Contactez-moi', 'Aidez-moi', 'À propos']
+      var mainPages = ['introduction', 'contact', 'help', 'about'];
+      var mainPagesFr = ['Introduction', 'Contactez-moi', 'Aidez-moi', 'À propos'];
       for (var page in mainPages){
         if (result == mainPages[page]){
           name = mainPagesFr[page];
