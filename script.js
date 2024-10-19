@@ -40,7 +40,7 @@ function editDistance(s1, s2) {
 }
 
 function search(value) {
-  var links = ['introduction', 'contact', 'help', 'about', 'Applications', 'Autres_Resources'];
+  var links = ['introduction', 'contact', 'help', 'about', 'Applications', 'Termes_Affixes', 'Autres_Resources']
   var ratios = [];
   for (var link in links) {
     var ratio = similarity(value, links[link]);
@@ -81,7 +81,7 @@ function catchSearchValue() {
     for (var result in results) {
       result = results[result];
       var mainPages = ['introduction', 'contact', 'help', 'about'];
-      var mainPagesFr = ['Introduction', 'Contactez-moi', 'Aidez-moi', 'À propos'];
+      var mainPagesFr = ['Introduction', 'Contactez-moi', 'Contribuer', 'À propos'];
       for (var page in mainPages){
         if (result == mainPages[page]){
           name = mainPagesFr[page];
@@ -89,8 +89,8 @@ function catchSearchValue() {
           break;
         }
         else{
-          name = result;
-          i = 'articles/'
+          name = result.replace('_', ' ');
+          i = 'articles/';
         };
       }
       // var anchor_tag = '<a href="file:///home/mohyeddine/Documents/Web/Projects/Medicine/articles/' + result + '.html' + '">' + result + '</a><br>'
