@@ -4,7 +4,7 @@ extra white space, search & label position.
 
 @font-face {
   font-family: sans-serif-local;
-  src: url(sans-serif.ttf);
+  src: url(.assets/sans-serif.ttf);
 }
 
 html{
