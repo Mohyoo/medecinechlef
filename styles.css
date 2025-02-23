@@ -2,6 +2,11 @@
 extra white space, search & label position.
  */
 
+@font-face {
+  font-family: sans-serif-local;
+  src: url(sans-serif.ttf);
+}
+
 html{
   height: 100%;
   overflow-x: hidden;
@@ -14,7 +19,7 @@ html{
   padding-top: 1px;
   padding-bottom: 10px;
   text-align: center;
-  font-family: sans-serif, Helvetica, Arial;
+  font-family: sans-serif-local, sans-serif, Helvetica, Arial;
   font-size: 25px;
   font-weight: 500;
   margin: -10px;
