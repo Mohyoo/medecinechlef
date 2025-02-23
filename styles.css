@@ -3,8 +3,8 @@ extra white space, search & label position.
  */
 
 @font-face {
-  font-family: sans-serif-local;
-  src: url(.assets/sans-serif.ttf);
+  font-family: 'sans-serif-local';
+  src: url('.assets/sans-serif.ttf');
 }
 
 html{
@@ -19,7 +19,7 @@ html{
   padding-top: 1px;
   padding-bottom: 10px;
   text-align: center;
-  font-family: sans-serif-local, sans-serif, Helvetica, Arial;
+  font-family: sans-serif-local, sans-serif, Helvetica;
   font-size: 25px;
   font-weight: 500;
   margin: -10px;
